@@ -1,4 +1,4 @@
-public class Dipendente implements Observer {
+public class Dipendente{
     
     
     private final String nome;
@@ -10,7 +10,7 @@ public class Dipendente implements Observer {
     }
 
 
-    @Override
+    
     public void riceviNotifica(String messaggio) {
         System.out.println(nome + " ha ricevuto: " + messaggio);
     }
