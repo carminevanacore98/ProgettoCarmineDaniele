@@ -3,7 +3,6 @@ package ProgettoCentroNotifiche;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observer;
 
 /**
  * CentroNotifiche
@@ -29,5 +28,15 @@ public class CentroNotifiche {
 
             d.riceviNotifica(notifica);
         }
+    }
+
+    public void inscrivi(Dipendente d){
+
+        dipendenti.add(d);
+    }
+
+    public void rimuovi(Dipendente d){
+
+        dipendenti.remove(d);
     }
 }
