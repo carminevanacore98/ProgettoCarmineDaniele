@@ -17,7 +17,7 @@ public class CentroNotifiche {
         this.dipendenti = new ArrayList<>();
     }
 
-    public CentroNotifiche getInstance(){
+    public static CentroNotifiche getInstance(){
 
         return singleton;
     }
@@ -30,7 +30,7 @@ public class CentroNotifiche {
         }
     }
 
-    public void inscrivi(Dipendente d){
+    public void iscrivi(Dipendente d){
 
         dipendenti.add(d);
     }
