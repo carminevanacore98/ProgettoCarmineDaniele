@@ -1,3 +1,4 @@
 Obiettivo odierno:
 
-Creare le classi CentroNotifiche e Dipendenti
+Creare le classi CentroNotifiche, Dipendenti e l'interfaccia Observer.
+
