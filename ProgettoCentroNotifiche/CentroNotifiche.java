@@ -10,7 +10,7 @@ import java.util.List;
 public class CentroNotifiche {
 
     private static CentroNotifiche singleton = new CentroNotifiche();
-    private List<Dipendente> dipendenti;
+    private List<Observer> dipendenti;
 
     private CentroNotifiche(){
 
@@ -24,7 +24,7 @@ public class CentroNotifiche {
 
     public void inviaNotifica(String notifica){
 
-        for(Dipendente d: dipendenti){
+        for(Observer d: dipendenti){
 
             d.riceviNotifica(notifica);
         }

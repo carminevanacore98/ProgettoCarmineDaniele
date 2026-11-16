@@ -1,6 +1,6 @@
 package ProgettoCentroNotifiche;
 
-public class Dipendente{
+public class Dipendente implements Observer{
     
     
     private final String nome;
