@@ -2,24 +2,15 @@ package ProgettoCentroNotifiche;
 
 public class Dipendente implements Observer{
     
-    
     private final String nome;
-
-
     
     public Dipendente(String nome) {
+        
         this.nome = nome;
     }
 
-
-    
-    public void riceviNotifica(String messaggio) {
-        System.out.println(nome + " ha ricevuto: " + messaggio);
+    public void riceviNotifica(Notifica notifica) {
+        
+        System.out.println(nome + " ha ricevuto: " + "[" + notifica.getTipo() + "] " + notifica.getMessaggio() + ", " + notifica.getDataOra());
     }
-
-
-
-
-
-
 }

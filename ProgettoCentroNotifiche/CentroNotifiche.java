@@ -22,7 +22,7 @@ public class CentroNotifiche {
         return singleton;
     }
 
-    public void inviaNotifica(String notifica){
+    public void inviaNotifica(Notifica notifica){
 
         for(Observer d: dipendenti){
 

@@ -3,10 +3,5 @@ package ProgettoCentroNotifiche;
 
 public interface Observer {
     
-    void riceviNotifica(String messaggio);
-
-
-
-
-
+    void riceviNotifica(Notifica messaggio);
 }
