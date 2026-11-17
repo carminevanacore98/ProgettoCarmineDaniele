@@ -14,10 +14,12 @@ public class Main {
         centro1.iscrivi(anna);
         centro1.iscrivi(marco);
 
-        centro1.inviaNotifica("Riunione alle 10");
+        NotificaFactory f = new NotificaFactory();
+
+        centro1.inviaNotifica(f.getNotifica(TipoNotifica.RIUNIONE, "Riunione alle 10"));
 
         centro1.rimuovi(anna);
-        centro1.inviaNotifica("Aggiornamento aziendale");
+        centro1.inviaNotifica(f.getNotifica(TipoNotifica.AGGIORNAMENTO ,"Aggiornamento aziendale"));
     }
 
 }
