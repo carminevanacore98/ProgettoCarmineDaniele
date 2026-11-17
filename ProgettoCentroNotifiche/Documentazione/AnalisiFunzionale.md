@@ -15,4 +15,5 @@ Il progetto è stato sviluppato seguendo il pattern Observer, dove la classe Cen
 
 Le task sono state divise in modo omogeneo, abbiamo diviso il lavoro in due giorni, il primo giorno ci siamo concentrati sulla creazione delle classi e dell'interfaccia, mentre il secondo giorno ci siamo concentrati sul testing e sulla verifica del corretto funzionamento del sistema.
 
+
 Ampliamento e miglioramento del progetto: abbiamo aggiunto categorie di notifiche, data e ora e storico.
