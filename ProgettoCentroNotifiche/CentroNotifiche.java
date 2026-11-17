@@ -16,7 +16,7 @@ public class CentroNotifiche {
     private CentroNotifiche(){
 
         this.dipendenti = new ArrayList<>();
-        this.dipendenti = new ArrayList<>();
+        this.storico = new ArrayList<>();
     }
 
     public static CentroNotifiche getInstance(){

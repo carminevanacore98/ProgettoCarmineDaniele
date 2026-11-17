@@ -20,6 +20,10 @@ public class Main {
 
         centro1.rimuovi(anna);
         centro1.inviaNotifica(f.getNotifica(TipoNotifica.AGGIORNAMENTO ,"Aggiornamento aziendale"));
+
+        centro1.stampaStorico();
+        anna.stampaStoricoNotifiche();
+        marco.stampaStoricoNotifiche();
     }
 
 }

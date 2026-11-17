@@ -18,7 +18,8 @@ public class Dipendente implements Observer {
                 + notifica.getMessaggio() + ", " + notifica.getDataOra());
     }
 
-    public List<Notifica> getStoricoNotifiche() {
-        return new ArrayList<>(storicoNotifiche);
+    public void stampaStoricoNotifiche() {
+        
+        System.out.println("\n\nStorico " + nome + ":\n" + storicoNotifiche + "\n\n");
     }
 }

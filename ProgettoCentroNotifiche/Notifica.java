@@ -24,4 +24,9 @@ public class Notifica {
     public LocalDateTime getDataOra() {
         return dataOra;
     }
+
+    public String toString(){
+
+        return "[" + tipo + "] " + messaggio + ", " + dataOra;
+    }
 }
